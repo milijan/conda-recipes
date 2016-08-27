@@ -7,6 +7,10 @@ bash configure \
     --with-python=$PREFIX/bin/python \
     --with-hdf5=$PREFIX \
     --with-netcdf=$PREFIX \
+    --with-openjpeg=yes \
+    --with-geotiff=yes \
+    --with-libtiff=yes \
+    --with-hide-internal-symbols=yes \
     --prefix=$PREFIX
 make
 make install
