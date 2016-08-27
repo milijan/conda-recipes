@@ -1,11 +1,11 @@
 package:
   name: gdal
-  version: 1.11.2
+  version: 2.1.1
 
 source:
-  fn: gdal-1.11.2.tar.gz                                         [unix]
-  url:  http://download.osgeo.org/gdal/1.11.2/gdal-1.11.2.tar.gz [unix]
-  md5: 866a46f72b1feadd60310206439c1a76                          [unix]
+  fn: gdal-2.1.1.tar.gz                                         [unix]
+  url: http://download.osgeo.org/gdal/2.1.1/gdal-2.1.1.tar.gz   [unix]
+  md5: 2a7037c5b30063cecfa104a562c9c07e                         [unix]
 
 requirements:
   build:
@@ -13,11 +13,13 @@ requirements:
     - numpy          [unix]
     - hdf5           [unix]
     - libnetcdf      [unix]
+    - libtiff        [unix]
   run:
     - python
     - numpy
     - hdf5           [unix]
     - libnetcdf      [unix]
+    - libtiff        [unix]
 
 test:
   files:
