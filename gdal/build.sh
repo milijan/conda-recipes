@@ -12,7 +12,7 @@ bash configure \
     --with-libtiff=yes \
     --with-hide-internal-symbols=yes \
     --prefix=$PREFIX
-make
+make -j$(nproc)
 make install
 
 ACTIVATE_DIR=$PREFIX/etc/conda/activate.d
