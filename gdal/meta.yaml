@@ -11,15 +11,11 @@ requirements:
   build:
     - python
     - numpy          [unix]
-    - hdf5           [unix]
     - libnetcdf      [unix]
-    - libtiff        [unix]
   run:
     - python
     - numpy
-    - hdf5           [unix]
     - libnetcdf      [unix]
-    - libtiff        [unix]
 
 test:
   files:
