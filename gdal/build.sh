@@ -6,7 +6,7 @@ unset CC CPP CXX
 bash configure \
     --with-python=$PREFIX/bin/python \
     --with-hdf5=yes \
-    --with-netcdf=$PREFIX \
+    --with-netcdf=yes \
     --with-openjpeg=yes \
     --with-geotiff=yes \
     --with-libtiff=yes \
