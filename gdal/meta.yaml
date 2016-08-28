@@ -11,11 +11,9 @@ requirements:
   build:
     - python
     - numpy          [unix]
-    - libnetcdf      [unix]
   run:
     - python
     - numpy
-    - libnetcdf      [unix]
 
 test:
   files:
